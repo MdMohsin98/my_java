@@ -1,4 +1,4 @@
-public class operators {
+public class operators2 {
     public static void main(String[] args) {
         // Arithematic Operators
         int a = 2;

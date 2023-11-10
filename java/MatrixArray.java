@@ -26,7 +26,7 @@ class MatrixArray
 				System.out.println(a[i][j]);
 				s = a[i][j];
 			}
-			System.out.println("\n",+s);
+			System.out.println("\n"+s);
 		}
 	}
 }

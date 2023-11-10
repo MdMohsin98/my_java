@@ -5,6 +5,6 @@ class Name
 	public static void main(String args[])
 	{
 		Scanner sc = new Scanner(System.in);
-		System.out.println(+\u0001" To "+\u9999);
+		System.out.println("\u0001"+" To "+"\u9999");
 	}
 }

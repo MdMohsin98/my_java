@@ -41,7 +41,7 @@ class Results extends Test implements Sports
 	{
 		total = part1 + part2 + sportWt;
 		putNumber();
-		putMarks();
+		putmarks();
 		putWt();
 		System.out.println("Total Score = " +total);
 	}
@@ -51,8 +51,8 @@ class Hybrid
 	public static void main(String args[])
 	{
 		Results student1 = new Results();
-		Student1.getNumber(1234);
-		Student1.getMarks(27.5F, 33.0F);
-		Student1.display();
+		student1.getNumber(1234);
+		student1.getmarks(27.5F, 33.0F);
+		student1.display();
 	}
 }

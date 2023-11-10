@@ -27,11 +27,11 @@ public class UserInput extends Applet
 		catch(Exception e)
 		{
 		}
-	}
+	
 	g.drawString("Your roll no is",10,75);
-	g.drawString(Roll No,100,75);
+	g.drawString("Roll No",100,75);
 	g.drawString("Your Name is:",10,95);
-	g.drawString(Name,100,95);
+	g.drawString("Name",100,95);
 }
 public boolean action(Event event,Object obj)
 {

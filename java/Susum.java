@@ -1,4 +1,4 @@
-class CmdLine
+public class Susum
 {
 	public static void main(String args[])
 	{

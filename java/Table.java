@@ -4,16 +4,16 @@ class Table
 {
 	public static void main(String args[])
 	{
-		int a, b, c,n;
+		int a, c, n;
 		Scanner sc = new Scanner(System.in);
 		System.out.print("Enter The No.");
 		n = sc.nextInt();
 		System.out.println("Table is Following :");
-		while(c<=n)
-		{
-			System.out.println("\t" +a);
-			for(c = 1; c<=10; c++)
-			a=n*c;
+		a = 1;
+		while(a<=10){
+			c=n*a;
+			System.out.println(c);
+			a++;
+			}
 		}
 	}
-}

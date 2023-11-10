@@ -8,7 +8,7 @@ class CopyFile
 		try
 		{
 			FileInputStream fin = new FileInputStream(args[0]);
-			FileInputStream fout = new FileOutputStream(args[1]);
+			FileOutputStream fout = new FileOutputStream(args[1]);
 			while((c = fin.read())!= -1)
 			{
 				fout.write((char)c);

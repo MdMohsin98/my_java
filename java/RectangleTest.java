@@ -3,24 +3,25 @@ import java.util.Scanner;
 class Rectangle
 {
 	double l, b, ar, pr;
-	public static void input()
+	void dimension_input()
 	{
 		Scanner sc = new Scanner(System.in);
 		System.out.print("Enter Length and Width of Rectangle : ");
-		int l = sc.nextInt();
-		int b = sc.nextInt();
+		double l = sc.nextDouble();
+		double b = sc.nextDouble();
 	}
-	public static void disp()
+	void disp()
 	{
-		System.out.println("Length = "+l);
-		System.out.println("Width = "+b);
+		System.out.println("Length = "+this.l);
+		System.out.println("Width = "+this.b);
 	}
-	public static void area()
+	void area()
 	{
+		// double ar, l, b;
 		ar = l*b;
 		System.out.println("Area = "+ar);
 	}
-	public static void perimeter()
+	void perimeter()
 	{
 		double pr = 2*(l+b);
 		System.out.println("Perimeter = "+pr);
@@ -31,7 +32,7 @@ public class RectangleTest
 	public static void main(String args[])
 	{
 		Rectangle r = new Rectangle();
-		r.input();
+		r.dimension_input();
 		r.disp();
 		r.area();
 		r.perimeter();

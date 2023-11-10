@@ -7,7 +7,7 @@ class HindiTyping
 		Scanner sc = new Scanner(System.in);
 		int i;
 		char j;
-		System.out.println("\n" +\u 2310+\u 2344+\u 2381+\u 2342);
+		System.out.println("\n" +"\u2310"+"\u2344"+"\u2381"+"\u2342");
 		for(i = 2309; i<=2407; i++)
 		System.out.print(Integer.toHexString(i)+" => " +(char)i+"	");
 	}

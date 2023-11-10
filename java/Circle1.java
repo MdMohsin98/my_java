@@ -3,11 +3,11 @@ class Circle1
 {
 	double r; //Instance Variable
 	public static final double PI = 3.14; //Static Variable or Class Variable
-	circle()
+	void circle()
 	{
 		r = 1.5;
 	}
-	circle(double x)
+	void circle(double x)
 	{
 		r = x;
 	}
@@ -32,8 +32,8 @@ class AllVarEg
 {
 	public static void main(String args[])
 	{
-		circle c1 = new circle();
-		circle c2 = new circle();
+		Circle1 c1 = new Circle1();
+		Circle1 c2 = new Circle1();
 		System.out.println("C1 : ");
 		c1.disp();
 		c1.area();
