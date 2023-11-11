@@ -9,9 +9,9 @@ class mobile{
 
     }
     public void features(){
-        System.out.println("Brand: " +this.brand);
-        System.out.println("OS: " + this.os);
-        System.out.println("Phone Type: " + this.type);
+        System.out.println("Brand Name: " +this.brand);
+        System.out.println("OS type: " + this.os);
+        System.out.println("Phone Type(Keypad/Screen Touch): " + this.type);
         System.out.println("======================");
 
     }
@@ -27,8 +27,12 @@ class Student_info{
     public void study_class_level(){
         System.out.println("Class: " + this.study_class);
     }
+    public void greeting(String name_s, int age){
+        System.out.println("Your age is : " + age);
+        System.out.println("Hey! "  + name_s + " Welcome to the coding session.");
+    }
     Student_info(){
-        System.out.println("Student Introduction.");
+        System.out.println("Student Intro.");
     }
 }
 
@@ -36,6 +40,7 @@ public class oops {
     public static void main(String[] args) {
         mobile mb = new mobile();
         Scanner sc = new Scanner(System.in);
+        System.out.println("Enter the new mobile details");
         System.out.print("Brand: ");
         mb.brand = (String)sc.nextLine();
         System.out.print("Os: ");
@@ -59,6 +64,7 @@ public class oops {
         s1.college = "TMBU";
         s1.study_class = "BCA";
         s1.printName();
+        s1.greeting("Mohsin", 24);
     }
     
 }
