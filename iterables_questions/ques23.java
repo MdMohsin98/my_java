@@ -14,7 +14,8 @@ public class ques23 {
         int negative_sum = 0, odd_sum= 0, even_sum=0;
         for (int i = 1; i<=num;i++){
             System.out.print("Enter number "+i+" = ");
-            int num1 = sc.nextInt();
+            int num1 = sc.nextInt();        
+            
             if (num1<0) {
                 negative_sum = negative_sum+num1;
             }

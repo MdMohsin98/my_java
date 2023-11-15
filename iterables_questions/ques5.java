@@ -22,6 +22,7 @@ public class ques5 {
             }
         }
         System.out.println(fact);
+        sc.close();
     }
     
 }

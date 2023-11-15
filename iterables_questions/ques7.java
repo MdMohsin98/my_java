@@ -7,7 +7,7 @@ public class ques7 {
         System.out.print("Enter a number: ");
         int num1 = sc.nextInt();
         
-        int i, factors=1, count=0;
+        int i, count=0;
         for (i=1;i<=num1; i++){
             if(num1%i==0){
                 count= count+1;
