@@ -15,6 +15,8 @@ public class for_loop {
         for (int j = 100; j>=1; j--)
         System.out.println(j);
 
+        sc.close();
+
     }
     
 }

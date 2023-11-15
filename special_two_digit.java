@@ -1,7 +1,5 @@
 import java.util.Scanner;
 
-import javax.swing.text.Style;
-
 public class special_two_digit {
     public static void main(String[] args) {
         // Special Two digit number
@@ -24,6 +22,7 @@ public class special_two_digit {
 
         String result = (a<0)? "Negative":"Positive";
         System.out.println(result);
+        sc.close();
         }
     }
 

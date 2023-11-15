@@ -26,6 +26,6 @@ public class mini_project {
                 break;
             }            
         }
-          
-        }
+        sc.close();          
     }
+}

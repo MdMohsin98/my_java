@@ -16,6 +16,7 @@ public class exception_handling {
             System.out.println("List Index out of bound.");
             System.out.println("Enter the value within the range.");
         }
+        sc.close();
     }
     
 }

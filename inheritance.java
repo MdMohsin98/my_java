@@ -1,4 +1,3 @@
-import bank.bank;
 
 // Base Class - shape
 class shape{
@@ -45,8 +44,5 @@ public class inheritance {
         Triangle t1 = new Triangle();
         t1.color = "Red";
         t1.area(12, 5);
-
-        ;
- 
     }
 }

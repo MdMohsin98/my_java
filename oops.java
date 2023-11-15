@@ -65,6 +65,8 @@ public class oops {
         s1.study_class = "BCA";
         s1.printName();
         s1.greeting("Mohsin", 24);
+        
+        sc.close();
     }
     
 }

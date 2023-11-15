@@ -20,6 +20,7 @@ public class functions_and_methods {
         String name1 = sc.nextLine();
         System.out.println("Hello, "+ name1);
         System.out.println("Welcome to Java.");
+        sc.close();
 
     }
     public static void addition(){
@@ -29,6 +30,7 @@ public class functions_and_methods {
         double b = sc.nextDouble();
         double c = a+b;
         System.out.println("Addition: " + c);
+        sc.close();
 
     }
     public static void main(String[] args) {

@@ -13,6 +13,8 @@ public class input1 {
         int total = p + c + m;
         System.out.println("Total Marks are: " + total);
 
+        sc.close();
+
     }
 }
 

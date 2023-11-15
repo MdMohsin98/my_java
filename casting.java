@@ -30,6 +30,7 @@ public class casting {
 
         final float pi = 3.14f;
         System.out.println(pi);
+        System.out.println(pie);
         // pi = 3.2222f; now it can't be changed after making pi as final variable
         
 

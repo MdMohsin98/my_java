@@ -27,6 +27,7 @@ public class do_while_loop {
             System.out.println("You entered: " +c);
         } while (c>=0);
         System.out.println("The End!");
+        sc.close();
     }
     
 }

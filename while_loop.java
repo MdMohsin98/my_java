@@ -27,6 +27,7 @@ public class while_loop {
             d--;
             
         }
+        sc.close();
     }
     
 }

@@ -44,7 +44,7 @@ public class logical_operators {
 
         else
         System.out.println("You can get multiple things.");
-
-
+        
+        sc.close();
     }
 }

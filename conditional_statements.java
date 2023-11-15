@@ -19,6 +19,7 @@ public class conditional_statements {
         System.out.println("Can vote.");
         else
         System.out.println("Can't vote.");
+        sc.close();
     }
     
 }

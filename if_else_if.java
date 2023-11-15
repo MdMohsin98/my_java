@@ -26,10 +26,6 @@ public class if_else_if {
             double total_charge1 = charge3+charge4+charge5;
             System.out.println("Total Charge: "+total_charge1);
         }
-
-
-        
-        
+        sc.close();         
     }
-    
 }

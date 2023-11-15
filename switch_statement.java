@@ -38,6 +38,7 @@ public class switch_statement {
                     System.out.println("Stop call");
                     break;
         }
+        sc.close();
 
     }
 }
