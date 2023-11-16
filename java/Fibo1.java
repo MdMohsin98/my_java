@@ -8,6 +8,7 @@ class Fibo1
 		int a=0, b=1, c=0, n;
 		System.out.print("Enter Last No. of Fibonacci Series ");
 		n = sc.nextInt();
+		sc.close();
 		System.out.println("The Fibonacci Series is : ");
 		while(c<=n)
 		{

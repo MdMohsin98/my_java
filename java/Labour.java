@@ -18,5 +18,6 @@ class Labour
 		c = sc.nextInt();
 		f = c*(400/8);
 		System.out.println("Total Salary: " +f);
+		sc.close();
 	}
 }

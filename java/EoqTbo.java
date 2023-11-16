@@ -26,5 +26,6 @@ class EoqTbo
 		{
 			System.out.println("Please Input Correctly : ");
 		}
+		s.close();
 	}
 }

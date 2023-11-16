@@ -8,6 +8,7 @@ class Fibonacci
 		Scanner sc = new Scanner(System.in);
 		System.out.print("Enter The Last No. of Series ");
 		n = sc.nextInt();
+		sc.close();
 		System.out.println("Fibonacci Series is Following :");
 		while(c<=n)
 		{

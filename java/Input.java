@@ -9,5 +9,6 @@ class Input
 		System.out.print("Enter Any No. ");
 		a = sc.nextInt();
 		System.out.print("The No. you entered is " +a);
+		sc.close();
 	}
 }

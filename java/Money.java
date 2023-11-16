@@ -10,5 +10,6 @@ class Money
 		a = sc.nextDouble();
 		b = a*100;
 		System.out.print("Money in Paise is : "+b+" paise");
+		sc.close();
 	}
 }

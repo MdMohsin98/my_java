@@ -5,7 +5,7 @@ class DoWhile
 	public static void main(String args[])
 	{
 		Scanner sc = new Scanner(System.in);
-		int a=0, b, c;
+		int a=0, b;
 		/**System.out.print("Enter The Value of A: ");
 		a = sc.nextInt();*/
 		do
@@ -17,5 +17,6 @@ class DoWhile
 				a++;
 			}
 		}while(a<=5);
+		sc.close();
 	}
 }

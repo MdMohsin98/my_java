@@ -11,5 +11,6 @@ class ConvertTemp
 		f = sc.nextDouble();
 		c = (f-32)/1.8;
 		System.out.print("Temperature in Celsius is : "+c+" Celsius");
+		sc.close();
 	}
 }

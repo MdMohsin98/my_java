@@ -9,6 +9,7 @@ class LcmHcf
 		System.out.print("Enter Any Two Nos. : ");
 		a = sc.nextInt();
 		b = sc.nextInt();
+		sc.close();
 		min = (a<b)?a:b;
 		for(i = 1; i<=min ; i++)
 		{

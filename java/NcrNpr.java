@@ -9,6 +9,7 @@ class NcrNpr
 		System.out.print("Enter Any Two Nos. : ");
 		a = sc.nextInt();
 		b = sc.nextInt();
+		sc.close();
 		for(c=1;c<=a;c++)
 		d = d*c;
 		System.out.println("Factorial("+a+") = " +d);
@@ -23,5 +24,7 @@ class NcrNpr
 		System.out.println("The NCR Value of " +a+ " and " +b+ " is = "+j);
 		k = d/i;
 		System.out.println("The NPR Value of " +a+ " and " +b+ " is = "+k); 
+	
+		
 	}
 }

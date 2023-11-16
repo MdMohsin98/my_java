@@ -10,5 +10,6 @@ class java
 		x = sc.nextInt();
 		y = Math.sqrt(x);
 		System.out.print("Square Root = " +y);
+		sc.close();
 	}
 }

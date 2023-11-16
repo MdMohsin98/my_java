@@ -26,5 +26,6 @@ class LinearEquation
 		}
 		else
 		System.out.println("Input Correctly ");
+		sc.close();
 	}
 }

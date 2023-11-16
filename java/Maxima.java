@@ -11,5 +11,6 @@ class Maxima
 		b = sc.nextInt();
 		max = (a>b)?a:b;
 		System.out.println("The Greater No. is : "+max);
+		sc.close();
 	}
 }

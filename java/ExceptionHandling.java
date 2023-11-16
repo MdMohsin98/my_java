@@ -24,5 +24,6 @@ class ExceptionHandling
 			System.out.println("Thanks ");
 		}
 		System.out.println("Result Code");
+		sc.close();
 	}
 }

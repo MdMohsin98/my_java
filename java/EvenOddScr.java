@@ -12,5 +12,6 @@ class EvenOddScr
 		System.out.println("The No. is Even ");
 		else
 		System.out.println("The No. is Odd ");
+		sc.close();
 	}
 }

@@ -30,6 +30,7 @@ class employee
 		salary = sc.nextInt();
 		System.out.print("Time of Work : ");
 		time = sc.nextDouble();
+		sc.close();
 	}
 }
 public class EmployeeTest
@@ -47,5 +48,6 @@ public class EmployeeTest
 			e1.disp();
 			b++;
 		}
+		sc.close();
 	}
 }

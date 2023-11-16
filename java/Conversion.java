@@ -4,11 +4,12 @@ class Conversion
 {
 	public static void main(String args[])
 	{
-		int a, b, c, d;
+		int a, b;
 		Scanner sc = new Scanner(System.in);
 		System.out.print("Enter Any Decimal No. : ");
 		a = sc.nextInt();
 		b = a%2;
 		{System.out.println(+b);}
+		sc.close();
 	}
 }

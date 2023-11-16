@@ -5,12 +5,13 @@ class Frequency
 {
 	public static void main(String args[])
 	{
-		double l, c, r, f, g, h;
+		double l, c, r, f, g;
 		Scanner sc = new Scanner(System.in);
 		System.out.print("Enter Inductance 'L' :");
 		l = sc.nextInt();
 		System.out.print("Enter Resistance 'R': ");
 		r = sc.nextInt();
+		sc.close();
 		for(c = 0.01; c<=0.10; c++)
 		{
 			f = ((1/l*c)-((r*r)/(4*c*c)));

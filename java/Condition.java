@@ -13,5 +13,6 @@ class Condition
 		System.out.println("The Person is Eligible ");
 		if(str == "Female")
 		System.out.println("The Person is Not Eligible ");
+		sc.close();
 	}
 }

@@ -10,6 +10,7 @@ class Mathematical
 		System.out.println("Note: Any Angle Should Be Given in Radians ");
 		System.out.print("Enter Any Angel for Trigonometric Calculation: ");
 		a = sc.nextDouble();
+		sc.close();
 		b = Math.sin(a);
 		c = Math.cos(a);
 		d = Math.tan(a);
@@ -89,6 +90,5 @@ class Mathematical
 		System.out.println("The NCR Value of " +A+ " and " +B+ " is = "+J);
 		K = D/I;
 		System.out.println("The NPR Value of " +A+ " and " +B+ " is = "+K); 
-
 	}
 }

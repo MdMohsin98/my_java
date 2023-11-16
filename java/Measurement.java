@@ -14,6 +14,7 @@ class Measurement
 		b = sc.nextInt();
 		c = 2.471054*b;
 		System.out.println(+a+" Hectare = "+c+" Acre");
+		sc.close();
 	}
 }
 		

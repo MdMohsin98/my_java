@@ -11,5 +11,6 @@ class LeapYear
 		a = sc.nextInt();
 		b = ((a%4==0 && a%100!=0)||(a%400==0))?" Leap Year " : " Not a Leap Year";
 		System.out.println("The Year is :" +b);
+		sc.close();
 	}
 }

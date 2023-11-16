@@ -8,6 +8,7 @@ class Harmonic1
 		Scanner sc = new Scanner(System.in);
 		System.out.print("Enter The Last No. of Series: ");
 		n = sc.nextInt();
+		sc.close();
 		System.out.println("\t The Harmonic Series is Following: ");
 		for(a=1;a<=n;a++)
 		{

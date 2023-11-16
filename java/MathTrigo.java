@@ -13,7 +13,8 @@ class MathTrigo
 		c = Math.cos(a);
 		d = Math.tan(a);
 		System.out.println("Sine of " +a+ " = " +b);
-		System.out.println("Cos of " +a+ " = " +b);
+		System.out.println("Cos of " +a+ " = " +c);
 		System.out.println("Tan of " +a+ " = " +d);
+		sc.close();
 	}
 }

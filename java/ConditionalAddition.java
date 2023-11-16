@@ -3,7 +3,7 @@ class ConditionalAddition
 {
 	public static void main(String args[])
 	{
-		int a, b=0, c=0;
+		int a, b=0;
 		for(a=100; a<=200; a++)
 		if(a%7==0)
 		b = b+a;

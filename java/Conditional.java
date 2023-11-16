@@ -13,5 +13,6 @@ class Conditional
 		System.out.println("The Student is Eligible for Job");
 		if(a == "Female")
 		System.out.println("The Student is Not Eligible for Job");
+		sc.close();
 	}
 }

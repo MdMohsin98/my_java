@@ -13,5 +13,6 @@ class EvenOddTest
 		System.out.println("\n\tEven ");
 		else
 		System.out.println("\n\tOdd ");
+		sc.close();
 	}
 }

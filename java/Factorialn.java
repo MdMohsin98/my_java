@@ -8,6 +8,7 @@ class Factorialn
 		int a, b=1, n;
 		System.out.print("Enter the value of n : ");
 		n = sc.nextInt();
+		sc.close();
 		for(a=1;a<=n;a++)
 		b = b*a;
 		System.out.println("Factorial : " +b);

@@ -12,5 +12,6 @@ class CircleScr
 		a = 3.14*r*r;
 		c = 2*3.14*r;
 		System.out.println("Area = "+a+" and Circumference = "+c);
+		sc.close();
 	}
 }

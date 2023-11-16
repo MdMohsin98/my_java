@@ -8,6 +8,7 @@ class Circle
 		Scanner sc = new Scanner(System.in);
 		System.out.print("Enter Radius : ");
 		r = sc.nextDouble();
+		sc.close();
 	}
 	void disp()
 	{

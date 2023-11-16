@@ -8,6 +8,7 @@ class Harmonic
 		double a,n;
 		System.out.print("Enter The Value of n :");
 		n = sc.nextDouble();
+		sc.close();
 		for(a=1;a<=n; a++);
 		{System.out.println("1/"+a);}
 	}

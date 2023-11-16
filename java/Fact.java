@@ -9,6 +9,7 @@ class Fact
 		Scanner sc = new Scanner(System.in);
 		System.out.print("Enter Any Number : ");
 		b = sc.nextInt();
+		sc.close();
 		for(a = 1; a<=b; a++)
 		c = c*a;
 		System.out.println("Factorial = " +c);

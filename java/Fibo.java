@@ -8,6 +8,7 @@ class Fibo
 		Scanner sc = new Scanner(System.in);
 		System.out.println("Enter The Limit of Series ");
 		b = sc.nextInt();
+		sc.close();
 		for(a = 0; a<=b; a++)
 		{
 			c = a+b;

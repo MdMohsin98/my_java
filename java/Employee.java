@@ -37,6 +37,7 @@ class employee
 		salary = sc.nextInt();
 		System.out.println("Time of Work : ");
 		time = sc.nextDouble();
+		sc.close();
 	}
 }
 public class Employee

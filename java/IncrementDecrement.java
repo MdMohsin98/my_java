@@ -1,5 +1,4 @@
 /** A Java Programme to define the Increment and Decrement Operator */
-import java.util.Scanner;
 class IncrementDecrement
 {
 	public static void main(String args[])

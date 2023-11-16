@@ -16,5 +16,6 @@ class Distance
 		System.out.println("Distance Travelled in 5 Minutes = "+d+" meters");
 		b = d/1000;
 		System.out.println("Distance Travelled in 5 Minutes = "+b+" kilo meters");
+		sc.close();
 	}
 }
