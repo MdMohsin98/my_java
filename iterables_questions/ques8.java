@@ -8,7 +8,8 @@ public class ques8 {
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter a number: ");
         int num1 = sc.nextInt();
-
+        sc.close();
+        
         int i, factors_count=0;
         for (i=1; i<= num1; i++){
             if(num1%i==0){

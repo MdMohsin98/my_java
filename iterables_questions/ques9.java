@@ -10,7 +10,9 @@ public class ques9 {
             System.out.print("Number "+i+" = ");
             sum = sum+sc.nextInt();
         }
+        
         System.out.println("Total sum: " + sum);
+        
     }
     
 }

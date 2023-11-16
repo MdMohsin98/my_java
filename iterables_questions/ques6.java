@@ -10,14 +10,12 @@ public class ques6 {
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter a number: ");
         int num1 = sc.nextInt();
+        sc.close();
         int i;
         for (i=1; i<=num1; i++){
             if (num1%i==0){
                 System.out.print(i+" ");
             }
         }
-        sc.close();
-
     }
-    
 }

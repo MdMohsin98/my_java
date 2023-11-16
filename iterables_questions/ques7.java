@@ -6,6 +6,7 @@ public class ques7 {
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter a number: ");
         int num1 = sc.nextInt();
+        sc.close();
         
         int i, count=0;
         for (i=1;i<=num1; i++){

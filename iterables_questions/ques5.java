@@ -10,6 +10,7 @@ public class ques5 {
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter the number: ");
         int num1 = sc.nextInt();
+        sc.close();
 
         int i, fact=1;
         for(i=1;i<=num1;i++){
@@ -22,7 +23,6 @@ public class ques5 {
             }
         }
         System.out.println(fact);
-        sc.close();
     }
     
 }
