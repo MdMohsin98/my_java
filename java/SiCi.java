@@ -15,6 +15,8 @@ class SiCiTest
 		t = sc.nextInt();
 		si = (p*r*t)/100;
 		System.out.println("Simple Interest : "+si);
+	
+		sc.close();
 	}
 	void compound()
 	{
@@ -26,6 +28,8 @@ class SiCiTest
 		t = sc.nextInt();
 		ci = p*(Math.pow((1+r/100),t));
 		System.out.println("Compound Interest : "+ci);
+	
+		sc.close();
 	}
 }
 public class SiCi
@@ -43,5 +47,6 @@ public class SiCi
 			case 2: i1.compound(); break;
 			default: System.out.println("Input Correctly ");
 		}
+		sc.close();
 	}
 }

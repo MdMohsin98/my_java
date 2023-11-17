@@ -12,5 +12,6 @@ class Subtraction
 		b= sc.nextInt();
 		c = a-b;
 		System.out.println("The Subtraction of "+a+" and "+b+" is "+c);
+		sc.close();
 	}
 }

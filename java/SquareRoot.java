@@ -11,5 +11,6 @@ class SquareRoot
 		x = sc.nextDouble();
 		y = Math.sqrt(x);
 		System.out.println("Square Root of " +x+ " = " +y);
+		sc.close();
 	}
 }

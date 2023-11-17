@@ -10,5 +10,6 @@ class SalesTax
 		p = sc.nextInt();
 		t = p*(12.35/100);
 		System.out.println("Sales Tax : " +t);
+		sc.close();
 	}
 }

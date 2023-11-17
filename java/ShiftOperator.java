@@ -16,5 +16,7 @@ class ShiftOperator
 		System.out.println("	Left Shift Operator :	"+c);
 		System.out.println("	Right Shift Operator :	"+d);
 		System.out.println("	Unsigned Right Shift Operator :	"+e);
+	
+		sc.close();
 	}
 }

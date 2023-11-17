@@ -11,6 +11,7 @@ class Subtraction2
 		b = sc.nextInt();
 		c = a-b;
 		System.out.println(a+" - "+b+" = "+c );
+		sc.close();
 	}
 }
 		

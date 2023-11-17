@@ -5,9 +5,10 @@ public class wrapper_class {
         // Wrapper class in java
 
         int i = 10;
-        Integer j = new Integer(10); // Wrapper Class
+        // Integer j = new Integer(10); // Wrapper Class - Old Model
         Integer k = Integer.valueOf(20); // Wrapper Class
-        System.out.println(j);
+        Integer l = 50;                    // Wrapper Class
+        System.out.println(k);
         System.out.println(i);
 
         Scanner sc = new Scanner(System.in);

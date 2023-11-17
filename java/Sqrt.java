@@ -6,7 +6,7 @@ class Sqrt
 	public static void main(String args[])
 	{
 		Scanner sc = new Scanner(System.in);
-		double a, b, c;
+		double a, b;
 		System.out.print("Enter Any Number : ");
 		a = sc.nextDouble();
 		if(a<=9.9)
@@ -16,5 +16,6 @@ class Sqrt
 		}
 		else
 		System.out.println("\n\t Invalid Input");
+		sc.close();
 	}
 }
