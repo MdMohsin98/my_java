@@ -22,5 +22,6 @@ class ReverseNumber
 			d=a/100;
 			System.out.println("Reverse of The No. is "+b+c+d);
 		}
+		sc.close();
 	}
 }

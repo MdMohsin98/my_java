@@ -12,5 +12,6 @@ class Circle
 		a = (22/7.00)*r*r;
 		c = 2*(22/7.00)*r;
 		System.out.println("Area = "+a+"(Centimeter Square) Circumference = "+c+"(Centimeter)");
+		sc.close();
 	}
 }

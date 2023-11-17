@@ -14,5 +14,6 @@ class Swap3
 		System.out.println("A = " +a+ ", B = " +b+" and C = "+c);
 		System.out.println("After Swapping ");
 		System.out.println("A = " +b+ ", B = "+c+" and C = "+a);
+		sc.close();
 	}
 }

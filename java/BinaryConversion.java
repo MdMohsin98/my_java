@@ -16,5 +16,6 @@ class BinaryConversion
 		System.out.println("Binary of "+a+" is  = "+Integer.toBinaryString(a));
 		System.out.println("Binary of 1's Complement of "+a+" is  = "+Integer.toBinaryString(b));
 		System.out.println("Binary of 2's Complement of "+a+" = "+Integer.toBinaryString(c));
+		sc.close();
 	}
 }

@@ -10,5 +10,6 @@ class Character
 		//sc.nextLine(); // This is used when any no. has been taken input before this;
 		c = sc.nextLine();
 		System.out.println("You Entered :	" +c);
+		sc.close();
 	}
 }

@@ -5,7 +5,7 @@ class PyramidPattern1
 	public static void main(String args[])
 	{
 		Scanner sc = new Scanner(System.in);
-		int i, j, k, n;
+		int i, j, n;
 		System.out.print("N = ");
 		n = sc.nextInt();
 		for(i=1;i<=n;i++)
@@ -16,5 +16,6 @@ class PyramidPattern1
 			}
 			System.out.println();
 		}
+		sc.close();
 	}
 }

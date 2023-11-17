@@ -10,5 +10,6 @@ class Addition
 		b = sc.nextInt();
 		c = a+b;
 		System.out.println("Sum of "+a+" and "+b+" is= "+c);
+		sc.close();
 	}
 }

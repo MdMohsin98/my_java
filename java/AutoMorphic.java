@@ -21,5 +21,6 @@ class AutoMorphic
 		System.out.println("Automorphic Number");
 		else
 		System.out.println("Not An Automorphic Number");
+		sc.close();
 	}
 }

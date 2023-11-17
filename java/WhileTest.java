@@ -5,7 +5,7 @@ class WhileTest
 	public static void main(String args[])
 	{
 		Scanner sc = new Scanner(System.in);
-		int a=1, b, c, d=1, e, f=1;
+		int a=1, b;
 		System.out.print("Enter Any No. : ");
 		b = sc.nextInt();
 		while(a<=b)
@@ -16,6 +16,7 @@ class WhileTest
 			System.out.print(a+"	-	Odd	||	");
 			a++;
 		}
+		sc.close();
 
 	}
 }

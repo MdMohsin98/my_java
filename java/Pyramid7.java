@@ -5,7 +5,7 @@ class Pyramid7
 	public static void main(String args[])
 	{
 		Scanner sc = new Scanner(System.in);
-		int i, j, k, n;
+		int i, j, n;
 		System.out.print("Enter The Value of n :");
 		n = sc.nextInt();
 		for(i= n;i>=1;i--)
@@ -16,5 +16,6 @@ class Pyramid7
 			}
 			System.out.println();
 		}
+		sc.close();
 	}
 }

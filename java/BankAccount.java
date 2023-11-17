@@ -45,7 +45,6 @@ public class BankAccount
 {
 	public static void main(String args[])
 	{
-		Scanner sc = new Scanner(System.in);
 		Bank b1 = new Bank();
 		b1.assign();
 		b1.deposit();

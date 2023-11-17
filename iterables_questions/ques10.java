@@ -17,6 +17,7 @@ public class ques10 {
             i++;
         }
         System.out.println("Total Sum: " + sum);
+        sc.close();
 
     }
     

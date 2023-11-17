@@ -26,5 +26,6 @@ class BitwiseOperator
 		System.out.println("Octal of "+b+" is = " +Integer.toOctalString(b));
 		System.out.println("Hexadecimal of "+a+" is = " +Integer.toHexString(a));
 		System.out.println("Hexadecimal of "+b+" is = " +Integer.toHexString(b));
+		sc.close();
 	}
 }

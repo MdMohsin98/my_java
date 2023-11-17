@@ -13,5 +13,6 @@ class Trigonometry
 		c = Math.cos(a);
 		System.out.println("Sine("+a+") = "+b);
 		System.out.println("Cos("+a+") = "+c);
+		sc.close();
 	}
 }

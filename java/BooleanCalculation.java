@@ -23,5 +23,6 @@ class BooleanCalculation
 		System.out.println("( b > 15 && c < 0 || a > 0 )	=	"+g);
 		System.out.println("( (a / 2.0 == 0.0 && b / 2.0 != 0.0) || c < 0.0 )=	"+h);
 		System.out.println("( a > c && a < b || a > b  && b <= a  ) = " +i); 
+		sc.close();
 	}
 }

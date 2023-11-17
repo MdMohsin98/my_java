@@ -23,5 +23,6 @@ class ArmStrong
 		else
 		System.out.println("The No. "+a+ " is not an Armstrong Number ");
 		}
+		sc.close();
 	}
 }

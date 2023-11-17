@@ -10,6 +10,7 @@ class Arithematic
 		System.out.print("Enter The Values of A & B : ");
 		a = sc.nextDouble();
 		b = sc.nextDouble();
+		sc.close();
 	}
 	void disp()
 	{

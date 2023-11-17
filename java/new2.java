@@ -9,6 +9,7 @@ class Calculator
 		sc.nextLine();
 		a = sc.nextLine();
 		System.out.println("You Entered = "+a);
+		sc.close();
 	}
 }
 		

@@ -5,7 +5,7 @@ class Swap
 {
 	public static void main(String args[])
 	{
-		int a, b, c;
+		int a, b;
 		Scanner sc = new Scanner(System.in);
 		System.out.print("Enter Two Nos. :");
 		a = sc.nextInt();
@@ -13,5 +13,6 @@ class Swap
 		System.out.println("A = " +a+ " and B = " +b);
 		System.out.println("After Swapping ");
 		System.out.println("A = " +b+ " and B = "+a);
+		sc.close();
 	}
 }

@@ -8,6 +8,7 @@ class Pattern
 		Scanner sc = new Scanner(System.in);
 		System.out.print("Enter Any No. : ");
 		b = sc.nextInt();
+		sc.close();
 		for(a=1;a<=b;a++)
 		{
 			System.out.println("****\n   ****");

@@ -8,6 +8,7 @@ class Table
 		Scanner sc = new Scanner(System.in);
 		System.out.print("Enter The No.");
 		n = sc.nextInt();
+		sc.close();
 		System.out.println("Table is Following :");
 		a = 1;
 		while(a<=10){

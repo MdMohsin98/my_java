@@ -5,7 +5,7 @@ class PrimeNoUsingBreak
 	public static void main(String args[])
 	{
 		Scanner sc = new Scanner(System.in);
-		int a=2, b, c, n;
+		int a=2, b, n;
 		System.out.print("Enter The Value of N: ");
 		n = sc.nextInt();
 		System.out.println("\nThe Prime Numbers Between 1 to "+n+" are following : ");

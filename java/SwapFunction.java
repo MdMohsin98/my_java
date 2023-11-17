@@ -19,5 +19,6 @@ class SwapFunction
 		b = sc.nextInt();
 		System.out.println("A = " +a+ " and B = " +b+" Before Swapping their values ");
 		swap(a, b);
+		sc.close();
 	}
 }

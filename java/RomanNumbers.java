@@ -5,11 +5,10 @@ class RomanNumbers
 	public static void main(String args[])
 	{
 		Scanner sc = new Scanner(System.in);
-		int x, n;
+		int n;
 		System.out.print("Enter Any No. ");
 		n = sc.nextInt();
 		String s = " ";
-		x = n;
 		while(n>0)
 		{
 			if(n>=1000)
@@ -79,5 +78,6 @@ class RomanNumbers
 			}
 		}
 		System.out.println("The Roman Equivalent of "+n+" is ="+s);
+		sc.close();
 	}
 }

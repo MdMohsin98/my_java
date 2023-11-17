@@ -17,6 +17,6 @@ class PlaceValue
 		}
 		else
 		System.out.println("\n\tPlease Enter Any Two Digit Number ");
-
+		sc.close();
 	}
 }

@@ -10,6 +10,7 @@ public class wrapper_class {
         Integer l = 50;                    // Wrapper Class
         System.out.println(k);
         System.out.println(i);
+        System.out.println(l);
 
         Scanner sc = new Scanner(System.in);
 

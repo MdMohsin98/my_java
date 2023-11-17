@@ -25,5 +25,6 @@ class NumberToWords
 			case '9' : System.out.print("Nine "); break;	
 		}
 		}
+		sc.close();
 	}
 }

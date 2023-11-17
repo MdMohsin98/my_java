@@ -67,5 +67,6 @@ class Operators
 		System.out.println("	Left Shift Operator :	"+x);
 		System.out.println("	Right Shift Operator :	"+y);
 		System.out.println("	Unsigned Right Shift Operator :	"+z);
+		sc.close();
 	}
 }

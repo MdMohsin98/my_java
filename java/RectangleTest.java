@@ -9,6 +9,7 @@ class Rectangle
 		System.out.print("Enter Length and Width of Rectangle : ");
 		double l = sc.nextDouble();
 		double b = sc.nextDouble();
+		sc.close();
 	}
 	void disp()
 	{
@@ -18,7 +19,7 @@ class Rectangle
 	void area()
 	{
 		// double ar, l, b;
-		ar = l*b;
+		ar = this.l*this.b;
 		System.out.println("Area = "+ar);
 	}
 	void perimeter()

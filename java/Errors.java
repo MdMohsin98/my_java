@@ -4,7 +4,7 @@ class Errors
 {
 	public static void main(String args[])
 	{
-		int a, b, c, d, e, f;
+		int a, b, c, d, e;
 		Scanner s = new Scanner(System.in);
 		System.out.print(" Enter any Five Nos. ");
 		a = s.nextInt();
@@ -12,13 +12,17 @@ class Errors
 		c = s.nextInt();
 		d = s.nextInt();
 		e = s.nextInt();
-		/*if(a=int)
-		if(b=int)
-		if(c=int)
-		if(d=int)
-		if(e=int)
-		System.out.println("The Nos. are Entered Correctly ");
-		else*/
-		System.out.println("The Nos. are Not Entered Correctly ");
+		String f = (a == (int)a)? "Correct":"Not Correct";
+		String g = (b == (int)b)? "Correct":"Not Correct";
+		String h = (c == (int)c)? "Correct":"Not Correct";
+		String i = (d == (int)d)? "Correct":"Not Correct";
+		String j = (e == (int)e)? "Correct":"Not Correct";
+
+		System.out.println(f);
+		System.out.println(g);
+		System.out.println(h);
+		System.out.println(i);
+		System.out.println(j);
+		s.close();
 	}
 }

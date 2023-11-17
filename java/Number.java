@@ -18,6 +18,8 @@ class Number
 		{System.out.println("Smallest Integer = " +b);
 		System.out.println(+a+" is not less than " +b);
 		System.out.println("Largest No. = "+a);
-		System.out.println(+b+" is not greater than " +a);}
+		System.out.println(+b+" is not greater than " +a);
+		sc.close();
+	}
 	}
 }

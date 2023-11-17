@@ -27,5 +27,6 @@ class SwitchCase
 			break;
 			default : System.out.println("Input Correctly ");
 		}
+		sc.close();
 	}
 }

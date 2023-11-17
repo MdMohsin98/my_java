@@ -6,7 +6,7 @@ class Calculator
 	public static void main(String args[])
 	{
 		Scanner sc = new Scanner(System.in);
-		double a, b, c, d, e, f, g, h, i, j, k, l;
+		double a, b, c, d, e, f, g, h, i, j;
 		int  n;
 		System.out.println("\t 1. Addition \n\t 2. Subtraction \n\t 3. Multiplication \n\t 4. Division \n\t 5. Square \n\t 6. Square Root ");
 		System.out.print("Choose Anyone : ");
@@ -52,5 +52,6 @@ class Calculator
 			System.out.println("Square Root of "+b+" = "+j);break;
 
 		}
+		sc.close();
 	}
 }

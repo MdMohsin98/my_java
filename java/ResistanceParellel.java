@@ -12,6 +12,7 @@ class ResistanceParellel
 		r2 = sc.nextInt();
 		re = 1/((1/r1)+(1/r2));
 		System.out.println("Equivalent Resistance = "+re);
+		sc.close();
 	}
 }
 		

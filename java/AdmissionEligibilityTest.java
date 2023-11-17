@@ -16,5 +16,6 @@ class AdmissionEligibilityTest
 		System.out.println("\n\tThe Student is Eligible ");
 		else
 		System.out.println("\n\tThe Student is Not Eligible ");
+		sc.close();
 	}
 }

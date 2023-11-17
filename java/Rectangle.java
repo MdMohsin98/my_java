@@ -12,5 +12,6 @@ class Rectangle
 		a = l*b;
 		p = 2*(l+b);
 		System.out.println("Area = "+a+" and Perimeter = "+p);
+		sc.close();
 	}
 }

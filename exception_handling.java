@@ -12,7 +12,7 @@ public class exception_handling {
             int a = sc.nextInt();
             System.out.println(ages[a]);
         } catch (Exception exception) {
-            // TODO: handle exception
+            // To handle exception
             System.out.println("List Index out of bound.");
             System.out.println("Enter the value within the range.");
         }

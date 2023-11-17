@@ -13,5 +13,6 @@ class SumOfSquare
 		d = b*b;
 		e = c + d;
 		System.out.println( +a+ " * "+a+" = " +c+ " \n " +b+ " * " +b+ " = " +d+"\n Sum of Square = " +e);
+		sc.close();
 	}
 }

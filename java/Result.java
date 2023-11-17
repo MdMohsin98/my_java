@@ -12,5 +12,6 @@ class Result
 		b = a*5;
 		c = Math.abs(b);
 		System.out.println("Total Marks = "+c);
+		sc.close();
 	}
 }

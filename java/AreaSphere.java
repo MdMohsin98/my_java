@@ -5,10 +5,11 @@ class AreaSphere
 	public static void main(String args[])
 	{
 		Scanner sc = new Scanner(System.in);
-		double a, b, c;
+		double a, b;
 		System.out.print("Enter Radius :");
 		a = sc.nextInt();
 		b = 4*3.14*a*a;
 		System.out.println("Area : " +b);
+		sc.close();
 	}
 }

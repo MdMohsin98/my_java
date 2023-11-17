@@ -13,6 +13,7 @@ class ResistanceSeries
 		r3 = sc.nextInt();
 		re = r1+r2+r3;
 		System.out.println("Equivalent Resistance = "+re);
+		sc.close();
 	}
 }
 		

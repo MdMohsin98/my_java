@@ -11,7 +11,7 @@ class Book
 	{
 		Scanner sc = new Scanner(System.in);
 		System.out.print("Enter Book Name : ");
-		//sc.nextLine();
+		sc.nextLine();
 		nm = sc.nextLine();
 		System.out.print("Enter Price : ");
 		price = sc.nextInt();
@@ -22,6 +22,7 @@ class Book
 		author = sc.nextLine();
 		System.out.print("Enter Publication : ");
 		publication = sc.nextLine();
+		sc.close();
 	}
 	void disp()
 	{
