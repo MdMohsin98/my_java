@@ -1,0 +1,6 @@
+Name: 	Mohammad Mohsin
+Age: 	25
+Phy: 	98.56
+Chem: 	89.65
+Total Score: 	188.21
+College: 	T.N.B.College, Bhagalpur
