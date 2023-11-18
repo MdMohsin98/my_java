@@ -8,7 +8,8 @@ public class ques9 {
         int i, sum=0;
         for (i=1;i<=10;i++){
             System.out.print("Number "+i+" = ");
-            sum = sum+sc.nextInt();
+            int num = sc.nextInt();
+            sum = sum+num;
         }
         
         System.out.println("Total sum: " + sum);
