@@ -8,7 +8,7 @@ class BankAccountSwitch
 		String nm, fnm, job, q;
 		double b, c, d, e, f, g, h;
 		Scanner sc = new Scanner(System.in);
-		System.out.print("Are You A New Customer ?\n1: Yes\n2: No\nChoose Any : ");
+		System.out.print("For New Customer Press ?\n1: Yes\n2: No ");
 		a = sc.nextInt();
 		if(a == 1)
 		{

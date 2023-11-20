@@ -7,7 +7,7 @@ class FactorialDIS
 		int i, f=1, n;
 		DataInputStream dis = new DataInputStream(System.in);
 		System.out.print("Enter Any No.: ");
-		n = Integer.parseInt(dis.readLine());
+		n = dis.readInt();
 		for(i=1;i<=n;i++)
 		f = f*i;
 		System.out.println("Factorial = " +f);	

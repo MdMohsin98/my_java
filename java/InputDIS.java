@@ -7,7 +7,7 @@ class InputDIS
 		int a;
 		DataInputStream dis = new DataInputStream(System.in);
 		System.out.print("Enter Any No. : ");
-		a = Integer.parseInt(dis.readLine());
+		a = dis.readInt();
 		System.out.print("The No. you entered is " +a);
 	}
 }

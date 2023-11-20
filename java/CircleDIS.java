@@ -8,7 +8,7 @@ class CircleDIS
 		double a, c, r;
 		DataInputStream dis = new DataInputStream(System.in);
 		System.out.print("Enter The Radius: ");
-		 r = Double.parseDouble(dis.readLine());
+		 r = dis.readDouble();
 		 a = 3.14*r*r;
 		 c = 2*3.14*r;
 		System.out.println("Area = "+a+" and Circumference = "+c);

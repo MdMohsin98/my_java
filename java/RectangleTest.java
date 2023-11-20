@@ -3,26 +3,25 @@ import java.util.Scanner;
 class Rectangle
 {
 	double l, b, ar, pr;
-	void dimension_input()
+	Scanner sc = new Scanner(System.in);
+	public void dimension_input()
 	{
-		Scanner sc = new Scanner(System.in);
 		System.out.print("Enter Length and Width of Rectangle : ");
-		double l = sc.nextDouble();
-		double b = sc.nextDouble();
+		this.l = sc.nextDouble();
+		this.b = sc.nextDouble();
 		sc.close();
 	}
-	void disp()
+	public void disp()
 	{
 		System.out.println("Length = "+this.l);
 		System.out.println("Width = "+this.b);
 	}
-	void area()
+	public void area()
 	{
-		// double ar, l, b;
-		ar = this.l*this.b;
-		System.out.println("Area = "+ar);
+		this.ar = this.l*this.b;
+		System.out.println("Area = "+this.ar);
 	}
-	void perimeter()
+	public void perimeter()
 	{
 		double pr = 2*(l+b);
 		System.out.println("Perimeter = "+pr);

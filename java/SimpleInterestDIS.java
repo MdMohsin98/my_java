@@ -9,11 +9,11 @@ class SimpleInterestDIS
 		double si;
 		DataInputStream dis = new DataInputStream(System.in);
 		System.out.print("Enter the value of P : ");
-		p = Integer.parseInt(dis.readLine());
+		p = dis.readInt();
 		System.out.print("Enter the value of R : ");
-		r = Integer.parseInt(dis.readLine());
+		r = dis.readInt();
 		System.out.print("Enter the value of T : ");
-		t = Integer.parseInt(dis.readLine());
+		t = dis.readInt();
 		si = (p*r*t)/100;
 		System.out.println("Simple Interest = " +si);
 	}
