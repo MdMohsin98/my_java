@@ -23,17 +23,16 @@ class Session241123_task{
         return Integer.parseInt(reversed_number);
     }
     public String checkPalindrome(int num){
-        // String reversedNumber = "";
+        int original_num = num; // Storing the original numbers value
+        String reversedNumber = "";
         String result;
-        // while (num>0) {
-        //     int digit = num%10;
-        //     reversedNumber = reversedNumber+digit;
-        //     num = num/10;            
-        // }
+        while (num>0) {
+            int digit = num%10;
+            reversedNumber = reversedNumber+digit;
+            num = num/10;            
+        }
+        result = (Integer.parseInt(reversedNumber)==original_num) ? "Palindrome Number.": "Not Palindrome";
 
-        // result = (Integer.parseInt(reversedNumber)==num) ? "Palindrome Number.": "Not Palindrome";
-
-        result = (reverse_number(num)==num)? "Palindrome":"Not Palindrome";
         return result;
     }
     public String checkPrime(int num){
@@ -51,7 +50,6 @@ class Session241123_task{
         return result;
     }
 }
-
 
 public class Session241123 {
     public static void main(String[] args) {
