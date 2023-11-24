@@ -30,8 +30,9 @@ class Session241123_task{
         //     reversedNumber = reversedNumber+digit;
         //     num = num/10;            
         // }
-        // int reversedNumber2 = Integer.parseInt(reversedNumber);
-        // result = (reversedNumber2==num) ? "Palindrome Number.": "Not Palindrome";
+
+        // result = (Integer.parseInt(reversedNumber)==num) ? "Palindrome Number.": "Not Palindrome";
+
         result = (reverse_number(num)==num)? "Palindrome":"Not Palindrome";
         return result;
     }
@@ -42,12 +43,8 @@ class Session241123_task{
                 factors = factors+1;
             }
         }
-        if (factors==2) {
-            return "Prime Number";
-        }
-        else{
-            return "Not a prime number.";
-        }
+        String result = (factors==2)? "Prime Number": "Not a prime number.";
+        return result;
     }
     public String checkEvenOdd(int num){
         String result = (num%2==0)?"Even":"Odd";
@@ -69,7 +66,7 @@ public class Session241123 {
         // Reverse Number
         System.out.println("Reversed Number: "+st.reverse_number(num));
         // Check Palindrome
-        System.out.println(st.checkPalindrome(num));
+        System.out.println("Is Palindrome: "+st.checkPalindrome(num));
         // Check Prime
         System.out.println("Is Prime: "+st.checkPrime(num));
         // Check Even Odd
