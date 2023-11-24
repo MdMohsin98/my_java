@@ -17,8 +17,5 @@ public class ques10_fibonacci {
         // 2 numbers that came before it.
 
         fibonacci(10);
-
-
-    }
-    
+    }  
 }
