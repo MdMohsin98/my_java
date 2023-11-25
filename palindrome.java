@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 public class palindrome {
     public static boolean checkPalindrome(int num){
         int original_num = num;
@@ -14,7 +16,11 @@ public class palindrome {
         // Write a function to identify the given
         // number is palindrome or not
 
-        System.out.println(checkPalindrome(121));
+        Scanner sc = new Scanner(System.in);
+        System.out.print("Enter a number: ");
+        int num = sc.nextInt();
+        System.out.println("Is Palindrome: "+checkPalindrome(num));
+        sc.close();
 
     }
     
