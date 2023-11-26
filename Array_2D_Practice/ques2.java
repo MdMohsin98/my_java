@@ -32,9 +32,9 @@ public class ques2 {
 
         System.out.println();
         System.out.println("Transpose of the matrix");
-        for (int i = 0; i<rows; i++){
+        for (int i = 0; i<cols; i++){
             System.out.println();
-            for (int j = 0; j<cols; j++){
+            for (int j = 0; j<rows; j++){
                 System.out.print(matrix[j][i]+" ");
             }
         }
