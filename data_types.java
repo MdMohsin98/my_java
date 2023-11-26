@@ -1,4 +1,4 @@
-public class types {
+public class data_types {
     public static void main(String[] args) {
         // There are two types of variables in java - 
         // 1. Premitive types 
