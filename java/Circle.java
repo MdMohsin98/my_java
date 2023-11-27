@@ -1,6 +1,6 @@
 /* A Java Programme to find the Area and Circumference of a Circle */
 import java.util.Scanner;
-class Circle
+class Circle2
 {
 	public static void main(String args[])
 	{
