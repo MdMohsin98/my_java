@@ -16,19 +16,21 @@ public class logical_operators {
         
         // || operator (pipe operator) - Logical OR
 
-        if (a%2==0 || a%5==0)
-        System.out.println("The number is divisible by 2 or 5");
+        if (a%2==0 || a%4==0)
+        System.out.println("The number is divisible by 2");
 
         // != operator = Not Equal to
 
         if (a%2!=0){
-        System.out.println("The number is odd.");
-        // For writing more than two lines in if block we must put it
-        // inside the curly braces.
-        System.out.println("The number is not divisible by 2");
+            System.out.println("The number is odd.");
+            // For writing more than two lines in if block we must put it
+            // inside the curly braces.
+            System.out.println("The number is not divisible by 2");
         }
-        else
-        System.out.println("The number is even");
+        else{
+            System.out.println("The number is even");
+        }
+        
 
         // More on if, else if and else statements
 
