@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class Array_Ques1 {
     public static void main(String[] args) {
 
-        // Linear Search Algorithm
+        // Linear Search Algorithm and other algorithms
 
         // Take an Array as input. Search for the given number x
         // and print the index at which it occurs.
