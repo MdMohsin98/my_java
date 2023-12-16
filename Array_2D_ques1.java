@@ -41,6 +41,8 @@ public class Array_2D_ques1 {
                 }
             }
         }
+        System.out.println();
+        System.out.println("Examples of Array 2D");
         sc.close();
     }
     
