@@ -17,13 +17,13 @@ public class ques23 {
             int num1 = sc.nextInt();        
             
             if (num1<0) {
-                negative_sum = negative_sum+num1;
+                negative_sum += num1;
             }
             else if(num1%2==0 && num1>0){
-                even_sum = even_sum + num1;
+                even_sum += num1;
             }
             else if(num1%2==1 && num1>0){
-                odd_sum = odd_sum+num1;
+                odd_sum += num1;
             }
             else if(num1==0){
                 System.out.println("List Terminated");
