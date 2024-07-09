@@ -30,6 +30,8 @@ public class digit_count {
         }
 
         System.out.printf("Total no. of %d between 0 and %d is = %d",digit, num, total);
+
+        sc.close();
     }
     
 }
